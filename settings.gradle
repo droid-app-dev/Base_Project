@@ -15,3 +15,5 @@ dependencyResolutionManagement {
 rootProject.name = "Base Project"
 include ':app'
 include ':location-lib'
+include ':network-module'
+include ':database-module'
