@@ -25,7 +25,7 @@ class NetworkModule {
             .addCallAdapterFactory(CoroutineCallAdapterFactory())
             .addConverterFactory(GsonConverterFactory.create())
             .client(client)
-            .baseUrl("")
+            .baseUrl("https://my-json-server.typicode.com")
             .build()
     }
 
